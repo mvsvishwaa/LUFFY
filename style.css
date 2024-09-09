@@ -49,7 +49,7 @@
     src: url(/fonts/CircularStd-Medium.ttf);
 }
 .bg{
-    background-image: url(/assets/Home/Banner\ 1.png);
+    background-image: url(./assets/Home/Banner\ 1.png);
     height: 800px;
     width: 100%;
     background-size: cover;
