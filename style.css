@@ -159,7 +159,7 @@
  }
 }
 .scroll{
-    background-image: url("/assets/Home/Scroll.png");
+    background-image: url("./assets/Home/Scroll.png");
     height: 19em;
     background-repeat: no-repeat;
     background-position: 3em 3em;
@@ -372,7 +372,7 @@ h2{
     
 }
 .amet{
-    background-image: url(/assets/Home/Rectangle\ 19294.png);
+    background-image: url(./assets/Home/Rectangle\ 19294.png);
     height: 18em;
     width: 100%;
     background-size: cover;
@@ -859,7 +859,7 @@ h4{
 
 .bg1{
     /* background-image: url(/assets/About/Rectangle\ 19290.png); */
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(/assets/About/Rectangle\ 19290.png);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(./assets/About/Rectangle\ 19290.png);
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -1105,7 +1105,7 @@ h4{
 
 
 .bg2{
-    background-image: url(/assets/ContactUs/Rectangle\ 19290.png);
+    background-image: url(./assets/ContactUs/Rectangle\ 19290.png);
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -1165,7 +1165,7 @@ h4{
             position: relative;
             border: 1px solid black;
             background-color:rgba(0, 5, 39, 0.83);
-            background-image: url(/assets/ContactUs/Rectangle\ 23923.png);
+            background-image: url(./assets/ContactUs/Rectangle\ 23923.png);
             height: 25em;
             width:34%;
             background-repeat: no-repeat;
@@ -1302,7 +1302,7 @@ h4{
 
 
 .bg3{
-    background-image:  linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)),url(/assets/OurPartners/Rectangle\ 19290.png);
+    background-image:  linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)),url(./assets/OurPartners/Rectangle\ 19290.png);
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -1373,7 +1373,7 @@ h4{
 /* all catogories */
 
 .bg4{
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url(/assets/AllCategories/Rectangle\ 19290.png);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url(./assets/AllCategories/Rectangle\ 19290.png);
     height: 600px;
     width: 100%;
     background-size: cover;
