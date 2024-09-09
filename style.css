@@ -858,7 +858,8 @@ h4{
 
 
 .bg1{
-    background-image: url(/assets/About/Rectangle\ 19290.png);
+    /* background-image: url(/assets/About/Rectangle\ 19290.png); */
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(/assets/About/Rectangle\ 19290.png);
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -1301,7 +1302,7 @@ h4{
 
 
 .bg3{
-    background-image: url(/assets/OurPartners/Rectangle\ 19290.png);
+    background-image:  linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)),url(/assets/OurPartners/Rectangle\ 19290.png);
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -1372,7 +1373,7 @@ h4{
 /* all catogories */
 
 .bg4{
-    background-image: url(/assets/AllCategories/Rectangle\ 19290.png);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url(/assets/AllCategories/Rectangle\ 19290.png);
     height: 600px;
     width: 100%;
     background-size: cover;
