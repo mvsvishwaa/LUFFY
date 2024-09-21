@@ -383,6 +383,9 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.ban{
+    display: none;
+}
 .pouch{
     background-color: rgba(34, 34, 127, 0.233);
     height: 100%;
@@ -1569,7 +1572,8 @@ ul{
       margin-top: 0;
       font-size: 1.5em;
       text-align: center;
-      max-width: 22em;
+      max-width: 19em;
+      margin-left: 15px;
     }
  }
  .search{
@@ -1625,7 +1629,7 @@ ul{
             h2{
                 font-size: 2em;
                 text-align: center;
-                margin-left: 1.2em;
+                margin-left: 0.2em;
                 margin-top: 10px;
             }
             p{
@@ -1634,16 +1638,24 @@ ul{
             }
         }
     }
+    .cat{
+        h5{
+            font-size: 2em;
+        }
+    }
     .bloody{
         flex-wrap: wrap;
         .parent{
             flex-basis: 50%;
             .blood{
                 img{
-                    margin-left: 6.5em;
+                    margin-left: 5.5em;
                 }
                 p{
-                    margin-left: 4em;
+                    margin-left: 2.3em;
+                }
+                h4{
+                    margin-left: 1em;
                 }
             }
         }
@@ -1659,6 +1671,8 @@ ul{
         h5{
             text-align: center;
             max-width: 13.8em;
+            font-size: 2em;
+            margin-left: 1em;
         }
     }
     .pop1{
@@ -1666,9 +1680,185 @@ ul{
             display: none;
         }
     }
+    .support{
+        img{
+            margin-left: 5em;
+        }
+        .ron{
+            p{
+                max-width: 80%;
+            }
+        }
+        }
+        .amet{
+            background-image: none;
+            
+        }
+        .ban{
+            display: none;
+            background-size: cover;
+        }
+        .pouch{
+            height: 0;
+        }
+        .luffy{
+           display: block;
+        }
+        .chop{
+            margin-top: 1em;
+            h4{
+                text-align: center;
+                font-size: 14px;
+            }
+            h5{
+                color: black;
+                font-size: 2em;
+                text-align: center;
+                margin-left: 1.2em;
+                max-width: 13.5em;
+                
+            }
+            a{
+                margin-top: 1em;
 
-}
-   
+            }
+        }
+        .shanks{
+            display: block;
+            .straw{
+                h3{
+                    text-align: center;
+                }
+                h4{
+                    text-align: center;
+                    font-size: 1.8em;
+                    max-width: 16;
+                    margin-left: 30px;
+                }
+                p{
+                    text-align: justify;
+                    max-width: 26em;
+                    margin-left: 4em;
+                }
+                ul{
+                    margin-top: 2em;
+                    margin-left: 3.2em;
+                }
+            }
+            .hats{
+                img{
+                    margin-top: 2em;
+                    margin-left: 9em;
+                }
+            }
+            .lap{
+                bottom: 3px;
+                left: 34px;
+                max-width: 48%;
+            }
+        }
+        .twomer{
+            margin-top: 3em;
+            .mask{
+                height: 14em;
+                h4{
+                    font-size: 1.5em;
+                }
+                a{
+                    padding: 10px 11px;
+                }
+            }
+            .mask1{
+                height: 14em;
+                h4{
+                    font-size: 1.5em;
+                }
+                a{
+                    padding: 10px 11px;
+                }
+            }
+        }
+        .medi{
+            h4{
+                font-size: 2em;
+                 margin-left: 1.9em;
+                margin-bottom: 5px;
+
+            }
+        }
+        .bottles{
+            display: block;
+            .vita{
+                img{
+                    margin-left: 6.5em;
+                    margin-top: 2em;
+                }
+                .sub{
+                    margin-left: 5.5em;
+                    h3{
+                        max-width: 18em;
+                    }
+                    p{
+                        max-width: 25em;
+                        text-align: justify;
+                    }
+                    a{
+                        margin-left: 10.7em;
+                       
+                    }
+                }
+            }
+        }
+        .realme{
+            
+            .wild{
+                img{
+                    left: 38%;
+                }
+            }
+            .redmi{
+                .parag3{
+                    max-width: 71%;
+                }
+            }
+            .cirarow{
+                i{
+                    left: 1.5em;
+                }
+            }
+            .circarow1{
+                i{
+                    right: 1.5em;
+                }
+            }
+        }
+        .footerr{
+            display: block;
+            .footer1{
+                img{
+                    margin-left: 3em;
+                }
+                h4{
+                    max-width: 25em;
+                    margin-left: 3em;
+                }
+                .mess{
+                    margin-bottom: 10px;
+                }
+            }
+            .footer2{
+                margin-left: 3em;
+            }
+            .footer4{
+                margin-left: 3em;
+                button{
+                    top: 37%;
+                    left: 40%;
+                }
+            }
+        }
+    }
+
 
 
 
