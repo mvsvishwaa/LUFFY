@@ -90,6 +90,10 @@
     list-style-type: none;
     margin-right: 30px;
 }
+.ham{
+    color:black;
+    display: none;
+}
 .menu ul li:last-child img{
     max-width: 40px;
 }
@@ -1558,20 +1562,27 @@ ul{
  .bgimg{
     display: block;
     background-size: cover;
+    z-index: -1;
  }
  .topper{
     display: none;
  }
  .menu{
     display: none;
+
  }
+ .ham{
+    display: block;
+    z-index: 10;
+}
+ 
  .members{
     
     p{
       color: #000000;
       margin-top: 0;
       font-size: 1.5em;
-      text-align: center;
+      text-align: left;
       max-width: 19em;
       margin-left: 15px;
     }
@@ -1610,10 +1621,11 @@ ul{
         }
     }
     .travia{
+        text-align: center;
         img{
-            max-width: 25em;
+            max-width: 250px;
             margin-top: 2em;
-            margin-left: -4em;
+            
         }
     }
     .doc{
@@ -1649,14 +1661,9 @@ ul{
         .parent{
             flex-basis: 50%;
             .blood{
+                text-align: center;
                 img{
-                    margin-left: 4.5em;
-                }
-                p{
-                    margin-left: 1.3em;
-                }
-                h4{
-                    margin-left: 1em;
+                    margin-left: 0;
                 }
             }
         }
@@ -1666,6 +1673,8 @@ ul{
         margin-top: 2em;
     }
     .flexible{
+        width: 90%;
+        margin: 0 auto;
         h4{
             text-align: center;
         }
@@ -1673,7 +1682,6 @@ ul{
             text-align: center;
             max-width: 13.8em;
             font-size: 2em;
-            margin-left: 1em;
         }
     }
     .pop1{
@@ -1734,28 +1742,30 @@ ul{
                     text-align: center;
                     font-size: 1.8em;
                     max-width: 16;
-                    margin-left: 30px;
                 }
                 p{
                     text-align: justify;
-                    max-width: 26em;
-                    margin-left: 2.3em;
+                    width: 90%;
+                    margin: 0 auto;
                 }
                 ul{
+                    width: 90%;
+                    margin: 0 auto;
                     margin-top: 2em;
-                    margin-left:1.8em;
                 }
             }
             .hats{
+                text-align: center;
                 img{
                     margin-top: 2em;
-                    margin-left: 7em;
+                    margin-left: 0;
                 }
             }
             .lap{
                 bottom: 6px;
                 left: 22px;
                 max-width: 57%;
+                display: none;
             }
         }
         .twomer{
@@ -1766,7 +1776,7 @@ ul{
                     font-size: 1.5em;
                 }
                 a{
-                    padding: 10px 11px;
+                    padding: 5px;
                 }
             }
             .mask1{
@@ -1775,14 +1785,15 @@ ul{
                     font-size: 1.5em;
                 }
                 a{
-                    padding: 10px 11px;
+                    padding: 5px;
                 }
             }
         }
         .medi{
             h4{
                 font-size: 2em;
-                 margin-left: 1.2em;
+                width: 90%;
+                margin: 0 auto;
                 margin-bottom: 5px;
 
             }
@@ -1790,23 +1801,10 @@ ul{
         .bottles{
             display: block;
             .vita{
+                width: 80%;
+                margin: 0 auto;
                 img{
-                    margin-left: 4.5em;
                     margin-top: 2em;
-                }
-                .sub{
-                    margin-left: 3.5em;
-                    h3{
-                        max-width: 18em;
-                    }yy
-                    p{
-                        max-width: 25em;
-                        text-align: justify;
-                    }
-                    a{
-                        margin-left: 10.7em;
-                       
-                    }
                 }
             }
         }
@@ -1858,6 +1856,21 @@ ul{
                 }
             }
         }
+
+        /* all catogories */
+
+
+
+
+        .cardio1{
+        ul{
+            flex-direction: column;
+        }
+        li{
+            margin-bottom: 10px;
+        }
+        }
+   
     }
 
 
@@ -1876,13 +1889,3 @@ ul{
 
 
 
-/* all catogories */
-   /* .cardio1{
-    ul{
-        flex-direction: column;
-    }
-    li{
-        margin-bottom: 10px;
-    }
-    }
-    */
