@@ -91,7 +91,6 @@
     margin-right: 30px;
 }
 .ham{
-    color:black;
     display: none;
 }
 .menu ul li:last-child img{
@@ -1589,10 +1588,23 @@ ul{
     display: none;
 
  }
- .ham{
-    display: block;
-    z-index: 10;
+.eren{
+    .hamdiv{
+        width: 90%;
+        margin: 0 auto;
+        .ham{
+            display: block;
+            position: absolute;
+            top: 1.6em;
+            right: 1.3em;
+            color: white;
+            li{
+                list-style-type: none;
+            }
+        }
+     }
 }
+
  
  .members{
     
@@ -1897,7 +1909,8 @@ ul{
                 display: none;
              }
              .icon{
-                display: none;
+                position: absolute;
+                top: 0;
             }
             .issues{
                 h5{
