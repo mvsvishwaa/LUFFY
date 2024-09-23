@@ -1822,8 +1822,10 @@ ul{
         }
         .bottles{
             display: block;
+            width: 90%;
+            margin: 0 auto;
             .vita{
-                width: 80%;
+                width: 70%;
                 margin: 0 auto;
                 img{
                     margin-top: 2em;
