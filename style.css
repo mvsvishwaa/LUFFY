@@ -1402,6 +1402,11 @@ h4{
     height: 600px;
     max-width: 100%;
     background-size: cover;
+    .covid{
+        .bgimg4{
+            display: none;
+        }
+    }
 
     .issues3{
         h5{
@@ -2110,18 +2115,70 @@ ul{
             }
          }
 
+         /* all catagories */
 
-        
-
-        /* .cardio1{
-        ul{
-            flex-direction: column;
-        }
-        li{
-            margin-bottom: 10px;
-        }
-        } */
-   
+         .bg4{
+            background-image: none;
+            height: 350px;
+            .covid{
+                .bgimg4{
+                    display: block;
+                    width: 100%;
+                 }
+             }
+             .issues3{
+                width: 90%;
+                margin: 0 auto;
+                h5{
+                    font-size: 1.5em;
+                    color: #000000;
+                    margin-top: 2em;
+                }
+                p{
+                    color: #000000;
+                    margin: 0;
+                    font-size: 1.4em;
+                    margin-top: 15px;
+                }
+             }
+         }
+         .zoro3{
+            width: 90%;
+             margin: 0 auto;
+             h2{
+                margin-top: 2em;
+                font-size: 1em;
+             }
+             h3{
+                font-size: 1.5em;
+             }
+         }
+         .card1{
+            ul{
+                flex-direction: column;
+            }
+            li{
+                margin-bottom: 10px;
+            }
+         }
+         .tablets{
+            width: 90%;
+            margin: 0 auto;
+            .tablets1{        
+                .tab{
+                    width: 90%;
+                    margin: 0 auto;
+                }
+            }
+         }
+         .cardio1{
+            ul{
+                flex-direction: column;
+            }
+            li{
+                margin-bottom: 10px;
+            }
+            }
     }
 
 
