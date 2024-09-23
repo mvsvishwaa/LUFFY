@@ -870,11 +870,14 @@ h4{
 
 
 .bg1{
-    /* background-image: url(/assets/About/Rectangle\ 19290.png); */
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(./assets/About/Rectangle\ 19290.png);
     height: 600px;
     max-width: 100%;
     background-size: cover;
+}
+.bgimg1{
+    width: 100%;
+    display: none;
 }
 .covid{
     .topper1{
@@ -1857,19 +1860,146 @@ ul{
             }
         }
 
-        /* all catogories */
+        /* about us */
 
+        .bg1{
+            background-image: none;
+            height: auto;
+         }
+         .bgimg1{
+            display: block;
+            background-size: cover;
+            z-index: -1;
+         }
+        .covid{
+            .topper1{
+                display: none;
+             }
+             .icon{
+                display: none;
+            }
+            .issues{
+                h5{
+                    color: #000000;
+                    margin-top: 1em;
+                    font-size: 1.5em;
+                }
+                p{
+                    color: #000000;
+                    font-size: 1.5em;
+                    margin-top: 1em;
+                }
+            }
+        }
+        .hate{
+            display: block;
+            .chris{
+                width: 90%;
+                margin: 0 auto;
+                h4{
+                    font-size: 1.5em;
+                    text-align: center;
+                }
+                p{
+                    text-align: justify;
+                }
+            }
+            .docthor{
+                width: 90%;
+                margin: 0 auto;
+                img{
+                    margin-left: 0;
+                    margin-top: 3em;
+                    
+                }
+            }
+        }
+        .hitage{
+            .jase{
+                .life{
+                    display: none;
+                }
+                .style{
+                    display: none;
+                }
+            }
+            .otto{
+                width: 90%;
+                margin: 0 auto;
+                padding-block:0 ;
+                padding-inline: 1em;
+                h3{
+                    font-size: 1.5em;
+                    margin-top: 0.5em;
+                }
+                p{
+                    text-align: justify;
+                    width: 90%;
+                }
+                .radar{
+                    a{
+                        margin-left: -3em;
+                    }
+                }
+            }
+        }
+        .enfield{
+            .doom{
+                width: 90%;
+                margin: 0 auto;
+                p{
+                    text-align: justify;
+                    margin-bottom: 1em;
+                }
+                .fourdoc {
+                     .fourdoc1 {
+                        max-width: 90%;
+                        margin: 0 auto;
+                         .jupiter {
+                             .insta {
+                                img {
+                                    max-width: 3em;
+                                    left: 1em;
+                                    bottom: -3em;
+                                }
+                            }
+                            .insta1{
+                                img {
+                                    max-width: 3em;
+                                    left: 6em;
+                                    bottom: -3em;
+                                }
+                            }
+                            .insta2{
+                                img {
+                                    max-width: 3em;
+                                    left: 11em;
+                                    bottom: -3em;
+                                }
+                            }
+                            .insta3{
+                                img {
+                                    max-width: 3em;
+                                    left: 16em;
+                                    bottom: -3em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        
 
-
-
-        .cardio1{
+        /* .cardio1{
         ul{
             flex-direction: column;
         }
         li{
             margin-bottom: 10px;
         }
-        }
+        } */
    
     }
 
