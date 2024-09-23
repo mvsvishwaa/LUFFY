@@ -1120,13 +1120,16 @@ h4{
 }
 }
 
-
+/* contact us */
 
 .bg2{
     background-image: url(./assets/ContactUs/Rectangle\ 19290.png);
     height: 600px;
     max-width: 100%;
     background-size: cover;
+}
+.bgimg2{
+    display: none;
 }
 .issues1{
     h5{
@@ -1139,7 +1142,7 @@ h4{
     }
    p{
     margin: 0px 10em;
-    max-width: 16em;
+    width: 16em;
     font-family: popinsbold;
     font-size: 2em;
     color: #ffffff;
@@ -1289,7 +1292,7 @@ h4{
                     border: 1px solid rgb(98, 95, 95);
                     border-radius: 5px;
                     resize: none;
-                    max-width: 37em;
+                    width: 37em;
                     height: 10em;
                     padding-top: 10px;
                     padding-left: 10px;
@@ -2048,6 +2051,66 @@ ul{
                 }
             }
          }
+
+         /* contact us */
+
+         .bg2{
+            background-image: none;
+            height: auto;
+         }
+         .bgimg2{
+            display: block;
+            width: 100%;
+         }
+         .issues1{
+            width: 90%;
+            margin: 0 auto;
+            h5{
+                color: #000000;
+                margin-top: 2em;
+            }
+            p{
+                color: #000000;
+                margin-left: 2em;
+                font-size: 1.5em;
+            }
+         }
+         .zoro1{
+            width: 90%;
+            margin: 0 auto;
+            h2{
+                margin-top: 3em;
+            }
+            h3{
+                font-size: 1.5em;
+            }
+            p{
+                text-align: justify;
+            }
+         }
+         .requiem{
+            .request{
+                flex-direction: column;
+                width: 90%;
+                margin: 0 auto;
+
+                .althaf{
+                    max-width: 100%;
+                    margin-bottom: 1em;
+                }
+                .honor {
+                    .pura {
+                        .row2 {
+                            textarea {
+                                width: 25em;
+                            }
+                        }
+                    }
+                }
+            }
+         }
+
+
         
 
         /* .cardio1{
