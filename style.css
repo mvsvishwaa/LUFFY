@@ -58,6 +58,9 @@
     width: 100%;
     display: none;
 }
+.hamdiv{
+    display: none;
+}
 .topper{
     display: flex;
     justify-content: space-between;
@@ -75,13 +78,6 @@
         margin-right: 12%;
     }
 }
-.icon{
-    margin-top: 20px;
-
-    img{
-       max-width: 7em;
-    }
-}
 .menu ul{
     display: flex;
     align-items: center;
@@ -89,9 +85,6 @@
 .menu ul li{
     list-style-type: none;
     margin-right: 30px;
-}
-.ham{
-    display: none;
 }
 .menu ul li:last-child img{
     max-width: 40px;
@@ -1567,11 +1560,62 @@ ul{
         text-align: center;
         }
     }
+    .mobileviewport{
+        background-color:rgba(0, 5, 39, 0.83);
+        width: 50%;
+        height: 100vh;
+        z-index: 5000;
+        padding-left: 20px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        .mobicon{
+            i{
+                color: #ffffff;
+                position: absolute;
+                right: 0.6em;
+                top: 1em;
+                font-size: 23px;
+            }
+            a{
+                img{
+                    max-width: 8em;
+                    margin-bottom: 20px;
+                    margin-top: 10px;
+                }
+            }
+        }
+        .mobmenu{
+            nav{
+                ul{
+                    li{
+                        list-style-type: none;
+                        padding-bottom: 10px;
+                        a{
+                            text-decoration: none;
+                            font-family:popinsreg;
+                            text-transform: capitalize;
+                            color:white;
+                            img{
+                                max-width: 3em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mobileviewport{
+        display: none;
+    }
 
 /* MEDIA-QUERY for mobile    */
 
 @media  (max-width: 600px){
 
+ .mobileviewport{
+    display:none;
+ }
  .bg{
     background-image: none;
     height: auto;
@@ -1581,6 +1625,26 @@ ul{
     background-size: cover;
     z-index: -1;
  }
+ .icon{
+    position: absolute;
+    top: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    img{
+        max-width: 7em;
+    }
+}
+ 
+ .hamdiv{
+    display: block;
+    .ham{
+        color: white;
+        position: absolute;
+        top: 18px;
+        right: 18px;
+        transition:all 0.9s ease;
+    }
+ }
  .topper{
     display: none;
  }
@@ -1588,23 +1652,6 @@ ul{
     display: none;
 
  }
-.eren{
-    .hamdiv{
-        width: 90%;
-        margin: 0 auto;
-        .ham{
-            display: block;
-            position: absolute;
-            top: 1.6em;
-            right: 1.3em;
-            color: white;
-            li{
-                list-style-type: none;
-            }
-        }
-     }
-}
-
  
  .members{
     
@@ -1908,10 +1955,7 @@ ul{
             .topper1{
                 display: none;
              }
-             .icon{
-                position: absolute;
-                top: 0;
-            }
+             
             .issues{
                 h5{
                     color: #000000;
